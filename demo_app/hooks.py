@@ -12,6 +12,10 @@ fixtures = ["Report"]
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
+
+page_js = {
+    "custom-chart-page": "public/js/custom_page.js"
+}
 # add_to_apps_screen = [
 # 	{
 # 		"name": "demo_app",
