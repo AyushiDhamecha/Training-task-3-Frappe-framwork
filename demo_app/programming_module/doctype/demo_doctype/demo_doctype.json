@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:demo-{###}",
  "creation": "2025-01-31 10:50:14.361912",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -92,10 +93,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-11 17:17:29.672507",
+ "modified": "2025-02-25 15:52:37.677870",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Demo Doctype",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

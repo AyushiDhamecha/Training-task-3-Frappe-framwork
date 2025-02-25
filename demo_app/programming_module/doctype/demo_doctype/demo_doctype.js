@@ -32,7 +32,7 @@ frappe.ui.form.on("Demo Doctype", {
                             frappe.msgprint('Student Saved Successfully!');
                             d.hide();
                         }
-                    });
+                    }); 
                 }
             });
 

@@ -2,6 +2,7 @@
  "actions": [],
  "allow_guest_to_view": 1,
  "allow_rename": 1,
+ "autoname": "format:ex-{###}",
  "creation": "2025-02-05 16:25:02.738976",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -75,10 +76,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-17 14:47:47.631682",
+ "modified": "2025-02-25 13:26:58.612240",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Demo_Client",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
