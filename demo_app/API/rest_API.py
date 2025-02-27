@@ -38,6 +38,23 @@
 import frappe
 
 @frappe.whitelist(allow_guest=True)
-def get_student(first_name):
-    student = frappe.get_doc("Demo_Client", first_name)
-    return student.as_dict()
+def get_student(age):
+ 
+    return frappe.get_doc("Student Doc", age)
+
+
+
+# import frappe
+
+# @frappe.whitelist(allow_guest=True)
+# def create_student(student_name, age, email):
+    
+#     student = frappe.get_doc({
+#         "doctype": "Student Doc",
+#         "student_name": student_name,
+#         "age": age,
+#         "email": email
+#     })
+#     student.insert()
+#     frappe.db.commit() 
+#     return student.as_dict()

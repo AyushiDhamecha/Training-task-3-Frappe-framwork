@@ -21,8 +21,10 @@
  ],
  "fields": [
   {
+   "collapsible": 1,
    "fieldname": "section_break_x676",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Artical list"
   },
   {
    "fieldname": "artical_name",
@@ -87,7 +89,7 @@
  "is_published_field": "published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-17 15:28:42.598838",
+ "modified": "2025-02-26 14:52:27.297150",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Artical",
