@@ -5,3 +5,5 @@ from frappe import _
 def get_document(doctype):
        
         return frappe.db.get_list(doctype)
+
+
